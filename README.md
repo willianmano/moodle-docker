@@ -2,7 +2,7 @@
 
 # BUILD MOODLE IMAGE
 
-> docker build -t app-moodle .
+> docker build -t my-moodle-image .
 
 # RUN docker-compose into this directory
 
