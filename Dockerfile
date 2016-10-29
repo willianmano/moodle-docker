@@ -15,3 +15,7 @@ RUN chown www-data.www-data /var/www/moodledata
 
 #INSTALL NODE
 RUN apt-get install build-essential nodejs npm -y
+
+RUN ln -s /usr/bin/nodejs /usr/bin/node
+
+RUN npm install -g grunt-cli
