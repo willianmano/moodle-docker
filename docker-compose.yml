@@ -28,7 +28,6 @@ services:
     container_name: moodle-web
     volumes:
       - .:/var/www/html
-      - .:/var/www/moodledata
     ports:
       - "80:80"
     links:
